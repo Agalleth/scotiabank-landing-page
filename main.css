@@ -1,0 +1,23 @@
+.container{
+  background-color: white;
+  padding: 3vh 3vw;
+}
+#banner{
+  min-height: 40vh;
+  background-color: pink;
+
+}
+.circling{
+  width: 7vw;
+  height: 7vh;
+}
+#stepsContainer{
+  padding-top: 3vh;
+  background-color: lightblue;
+}
+#containerSelects{
+  padding-top: 3vh;
+  background-color: lightgray;
+  min-height: 30vh;
+}
+/* FORMMMMMM */

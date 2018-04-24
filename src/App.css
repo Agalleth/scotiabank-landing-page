@@ -34,3 +34,27 @@
 .btn-secondary {
     background-color: red !important;
 }
+
+.container {
+    background-color: white;
+    padding: 3vh 3vw;
+}
+
+.banner {
+    min-height: 40vh;
+    background-color: pink;
+}
+
+.stepsContainer {
+    padding-top: 3vh;
+    background-color: lightblue;
+}
+
+.containerSelects {
+    padding-top: 3vh;
+    background-color: lightgray;
+    min-height: 30vh;
+}
+
+
+/* FORMMMMMM */

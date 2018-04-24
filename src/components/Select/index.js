@@ -16,6 +16,7 @@ class Select extends PureComponent  {
     toggle() {
       this.setState({
         dropdownOpen: !this.state.dropdownOpen
+        
       });
     }
 
@@ -24,8 +25,8 @@ class Select extends PureComponent  {
     }
 
     select(event) {
-        console.log(event.target.id)
-        
+        let idSelect = event.target.id;
+        console.log(idSelect)
       }
   
     render() {
@@ -37,7 +38,7 @@ class Select extends PureComponent  {
           </DropdownToggle>
           <DropdownMenu>
             {
-                array.map((item) => <DropdownItem key={item.id} id={item.amount} onClick={this.select}>{item.amount}</DropdownItem>) 
+                array.map((item) => <DropdownItem key={item.id} id={item.amount} onClick={this.select}>${item.amount}</DropdownItem>) 
             }
           </DropdownMenu>
         </ButtonDropdown>

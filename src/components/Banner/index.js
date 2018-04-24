@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-//import Logo from './src/scotiabank-logo.png';
+import Logo from '../../../src/scotiabank-logo.png';
 
 class Banner extends Component {
     render() {
         return (
             <div>
                 <nav className="navbar navbar-default">
-                    <a className="navbar-brand" href="#"><img className="logo" src='' alt="logo"/></a>
+                    <a className="navbar-brand" href="#"><img className="logo" src={Logo} alt="logo"/></a>
                     <a className="btn" href="#">SOLICITA TU TARJETA</a>
                 </nav>
                 <div className="row banner">

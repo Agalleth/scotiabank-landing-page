@@ -40,21 +40,63 @@
     padding: 3vh 3vw;
 }
 
+.navbar {
+    background-color: red;
+    margin-bottom: 3vh;
+}
+
 .banner {
     min-height: 40vh;
-    background-color: pink;
+}
+
+.circling {
+    width: 7vw;
+    height: 7vh;
 }
 
 .stepsContainer {
     padding-top: 3vh;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 .containerSelects {
     padding-top: 3vh;
-    background-color: lightgray;
     min-height: 30vh;
+}
+
+.text-banner {
+    padding-top: 5vh;
 }
 
 
 /* FORMMMMMM */
+
+.logo {
+    width: 15vw;
+    height: 6vh;
+}
+
+.btn {
+    background-color: white;
+    color: red;
+    font-weight: 600;
+}
+
+.ico {
+    width: 3vw;
+    height: 5vh;
+}
+
+.colo-red {
+    color: red;
+}
+
+.stepsContainer {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.containerSelects {
+    padding-top: 10vh;
+    text-align: center;
+}

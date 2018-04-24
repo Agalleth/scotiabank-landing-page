@@ -1,66 +1,83 @@
-.container{
-  background-color: white;
-  padding: 3vh 3vw;
+.container {
+    background-color: white;
+    padding: 3vh 3vw;
 }
-.navbar{
-  background-color: red;
-  margin-bottom: 3vh;
+
+.navbar {
+    background-color: red;
+    margin-bottom: 3vh;
 }
-#banner{
-  min-height: 70vh;
-  background-image: url("src/papa.jpg");
-  background-size: cover;
+
+#banner {
+    min-height: 70vh;
+    background-image: url("src/papa.jpg");
+    background-size: cover;
 }
-#stepsContainer{
-  padding-top: 3vh;
-  background-color: #F7f7f7;
+
+#stepsContainer {
+    padding-top: 3vh;
+    background-color: #F7f7f7;
 }
-#containerSelects{
-  padding-top: 3vh;
-  min-height: 30vh;
+
+#containerSelects {
+    padding-top: 3vh;
+    min-height: 30vh;
 }
-.text-banner{
-  padding-top: 5vh;
+
+.text-banner {
+    padding-top: 5vh;
 }
+
+
 /* FORMMMMMM */
-.logo{
-  width: 15vw;
-  height: 6vh;
+
+.logo {
+    width: 15vw;
+    height: 6vh;
 }
-.butn{
-  background-color: white;
-  color: red;
-  font-weight: 600;
-  font-size: 15px;
+
+.butn {
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
 }
-.ico{
-  width: 3vw;
-  height: 5vh;
+
+.ico {
+    width: 3vw;
+    height: 6vh;
 }
-.colo-red{
-  color: red;
+
+.colo-red {
+    color: red;
 }
-#stepsContainer{
-  text-align: center;
-  padding-top: 5vh;
+
+#stepsContainer {
+    text-align: center;
+    padding-top: 5vh;
 }
-#containerSelects{
-  padding-top: 10vh;
-  text-align: center;
+
+#containerSelects {
+    padding-top: 10vh;
+    text-align: center;
 }
-#containerSelects>div>div>select{
-  border: red 2px solid;
+
+#containerSelects>div>div>select {
+    border: red 2px solid;
 }
-.butn-collaps{
-  border: red 2px solid;
-  height: 8vh;
-  color: black;
-  margin-right: 3vw;
+
+.butn-collaps {
+    border: red 2px solid;
+    height: 8vh;
+    color: black;
+    margin-right: 3vw;
 }
-.plus{
-  width: 1vw;
-  height: 2vh;
+
+.plus {
+    width: 1vw;
+    height: 2vh;
 }
-.btn-sm{
-  height: 5vh;
+
+.btn-sm {
+    height: 5vh;
 }

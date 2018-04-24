@@ -54,7 +54,7 @@ class Homepage extends Component {
         })
         console.log(arrayList)
         return (
-            <div>
+            <div className="container">
                 <Banner/>
                 <Steps/>
                 <Select array= {this.state.listSelect}/>

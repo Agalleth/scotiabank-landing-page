@@ -32,7 +32,8 @@
 }
 
 .btn-secondary {
-    background-color: red !important;
+    background-color: white !important;
+    color: black !important;
 }
 
 .container {
@@ -46,17 +47,14 @@
 }
 
 .banner {
-    min-height: 40vh;
-}
-
-.circling {
-    width: 7vw;
-    height: 7vh;
+    min-height: 70vh;
+    background-image: url("../src/papa.jpg");
+    background-size: cover;
 }
 
 .stepsContainer {
     padding-top: 3vh;
-    background-color: lightgray;
+    background-color: #F7f7f7;
 }
 
 .containerSelects {
@@ -76,19 +74,25 @@
     height: 6vh;
 }
 
-.btn {
+.butn {
     background-color: white;
     color: red;
     font-weight: 600;
+    font-size: 15px;
 }
 
 .ico {
     width: 3vw;
-    height: 5vh;
+    height: 9vh;
 }
 
 .colo-red {
     color: red;
+    text-align: left;
+}
+
+.align-left {
+    text-align: left;
 }
 
 .stepsContainer {
@@ -99,4 +103,24 @@
 .containerSelects {
     padding-top: 10vh;
     text-align: center;
+}
+
+.containerSelects>div>div>select {
+    border: red 2px solid;
+}
+
+.butn-collaps {
+    border: red 2px solid;
+    height: 8vh;
+    color: black;
+    margin-right: 3vw;
+}
+
+.plus {
+    width: 1vw;
+    height: 2vh;
+}
+
+.btn-sm {
+    height: 5vh;
 }

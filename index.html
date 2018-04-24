@@ -12,14 +12,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>Scotiabank gift cards</title>
 </head>
-
 <body>
-
+  <nav class="navbar navbar-default container">
+      <a class="navbar-brand" href="#"><img class="logo" src="src/scotiabank-logo.png" alt=""></a>
+      <a class="butn btn" href="#">SOLICITA TU TARJETA</a>
+  </nav>
     <div class="container">
-        <nav class="navbar navbar-default">
-            <a class="navbar-brand" href="#"><img class="logo" src="src/scotiabank-logo.png" alt=""></a>
-            <a class="butn btn" href="#">SOLICITA TU TARJETA</a>
-        </nav>
         <div class="row" id="banner">
             <div class="col-md-5 text-banner">
                 <h2 class="colo-red">Empieza a disfrutar la vida como quieras.</h2>
@@ -50,29 +48,6 @@
         </div>
         <div class="row" id="containerSelects">
             <h5 class="colo-red">Comienza a disfrutar de beneficios, recompensas y promociones exclusivas por ser cliente Scotiabank.</h5>
-
-            <p class="col-lg-3">¿Qué tarjeta prefieres?</p>
-            <div class="form-group">
-                <!-- <label for="exampleFormControlSelect1">Example select</label> -->
-                <select class="form-control" id="exampleFormControlSelect1">
-          <option>Categoria</option>
-          <option>Viajes</option>
-          <option>Compras en línea</option>
-        </select>
-
-            </div>
-            <div class="form-group offset-lg-1">
-                <!-- <label for="exampleFormControlSelect1">Example select</label> -->
-                <select class="form-control" id="exampleFormControlSelect1">
-      <option>¿Cuál es tu ingreso?</option>
-
-      <option>$7,500 - $15,000</option>
-      <option>$15,000 - $45,000</option>
-      <option >+ $45,000</option>
-    </select>
-            </div>
-        </div>
-
         <div class="row">
             <p class="col-lg-3">¿Qué tarjeta prefieres?</p>
             <div class="form-group">
@@ -104,37 +79,48 @@
                         <p>Esto es un texto</p>
                     </div>
                     <button class="btn btn-link butn-collaps btn-sm" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <img class="plus" src="src/plus-math.png" alt="">INFO
-              </button>
+                      <img class="plus" src="src/plus-math.png" alt="">INFO
+                    </button>
                     <a href="#" class="btn btn-sm butn-collaps">
-                SOLICITAR AHORA
-              </a>
+                      SOLICITAR AHORA
+                  </a>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
-                        INFO POR DENTRO Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                        aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <h4 class="colo-red">Requisitos para sacar una Tarjeta de Crédito Scotia Travel</h4>
+                      <div>
+                        <ul>
+                          <li>Ser mayor de 22 años y hasta 74 años 11 meses*</li>
+                          <li>Solicitud de Tarjeta de Crédito.</li>
+                          <li>Original y copia de comprobante de ingresos mínimos de $7,500 pesos o estado de cuenta bancario de cheques, inversiones.</li>
+                          <li>Original y copia de comprobante de domicilio a nombre del cliente (credencial de elector, luz, agua, gas entubado, teléfono, telefonía celular, Tv. de paga, predial o estado de cuenta bancario de Cheques, Inversiones, Tarjeta de Crédito, crédito de auto o hipotecario) no mayor a 3 meses de antigüedad.</li>
+                          <li>Original y copia de Identificación oficial vigente con fotografía (Credencial de Elector, Pasaporte o Cédula profesional).</li>
+                          <li>En caso de ser extranjero original de pasaporte y forma migratoria acreditando su legal estancia en el país.</li>
+                          <li>Registro Federal de Contribuyentes (con homoclave) y Cédula de Identificación Fiscal (en caso de persona física con actividad empresarial), así como Firma Electrónica Avanzada (en caso de contar con ella).</li>
+                          <li>Constancia de la Clave Única de Registro de Población, expedida por la Secretaría de Gobernación (en caso de contar con ella).</li>
+                        </ul>
+                        <p>*Para clientes Premium la edad máxima hasta 79 años 11 meses</p>
+                        <a class="colo-red" href="http://scotiabankfiles.azureedge.net/scotia-bank-mexico/spanish/pdf/acerca-de/comunicados-al-publico-en-general/Centro-de-medios/Folletos/ContratoTDC.pdf?t=1524582143399">Contrato></a>
+                        <p>Modificación de Contrato de Tarjeta de Crédito para clientes que contrataron antes del 1 de mayo de 2018. Estimado Cliente te informamos que tu contrato de Tarjeta de Crédito ha sido actualizado, consulta el detalle <a class="colo-red" href="http://scotiabankfiles.azureedge.net/scotia-bank-mexico/spanish/pdf/personas/creditos/TC/CambiosContratoComisionOxxo20171227.pdf?t=1524582143399">aquí</a> </p>
+                        <p>Producto ofrecido por Scotiabank Inverlat, S.A Institución de Banca Múltiple, Grupo Financiero Scotiabank Inverlat.</p>
+                        <img src="src/interes.png" alt="">
+                        <div class="row">
+                          <div class="offset-md-7">
+                            <a class="btn btn-link butn-collaps btn-sm" href="#">
+                              <img class="plus" src="src/plus-math.png" alt="">DETALLES
+                            </a>
+                            <a href="form.html" class="btn btn-sm butn-collaps">
+                              SOLICITAR AHORA
+                          </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-
     </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -142,5 +128,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
-
 </html>

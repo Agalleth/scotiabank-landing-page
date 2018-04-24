@@ -16,11 +16,16 @@ class Homepage extends Component {
         }
     }
 
+    compareCategory () {
+        this.state.listCards.forEach((card) => {
+            console.log(card)
+        })
+    }
+
 
     componentDidMount () {
         let listCards = Api.database.collection("cards");
         let listSelect = Api.database.collection("select-amount");
-        let listArray = [];
         const self = this;
         listCards.get().then(function(doc) {
             let listCards = utilFirebase.snapshopToArray(doc)
@@ -41,6 +46,13 @@ class Homepage extends Component {
     }
 
     render() {
+        let arrayList = this.state.listCards;
+        arrayList.forEach((item)=> {
+            let amountCard = item.amount;
+            console.log(amountCard)
+
+        })
+        console.log(arrayList)
         return (
             <div>
                 <Banner/>
